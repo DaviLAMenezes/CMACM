@@ -1,0 +1,192 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/*menu inicial*/
+
+.navbar {
+    width: 100%;
+    background: red;
+    color: white;
+    text-decoration: none;
+    height: 80px;
+    position: fixed;
+}
+
+.navbar-menu {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.menu-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.menu-items li {
+    padding: 10px;
+}
+
+.destaque{
+    color: #7c7c7c;
+}
+
+header{
+    margin: 61px 0 0 0;
+}
+
+.principal {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: url('img/emconstrucao.jpg') no-repeat center center/cover;
+
+    /* Overlay */
+    background-color: rgba(0,0,0,30%);
+    background-blend-mode: color;
+}
+
+.box-principal {
+    background-color: #ff0000aa;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.box-principal h2 {
+    font-size: 2.5rem;
+}
+
+.box-principal p {
+    font-size: 1.2rem;
+    padding: 7px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background: #ffffff;
+    color: red;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #ffffffdd;
+}
+
+#separador{
+    width: 100%;
+    background-color: red;
+    padding: 5px;
+}
+
+.separador{
+    width: 100%;
+    background-color: white;
+    padding: 1px;
+}
+
+/*ESOLHER LOGIN/CADASTRO*/
+
+#portal{
+    width: 100%;
+    background-color: white;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.headlinep {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.manchetep{
+    color: red;
+}
+
+.box-noticiap {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+}
+
+.portal {
+    display: flex;
+    flex-direction: column;
+    background: red;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.titulo-box {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background: #dd0000;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    background: #ddffffff;
+    color: red;
+}
+
+/*PROPAGANDA*/
+
+.banner {
+    background: gray;
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0px;
+}
+
+
+/*RODA PÉ*/
+
+.rodape {
+    background: red;
+    color: white;
+    padding: 15px;
+    text-align: center;
+
+}
